@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main-nav-upper{
+    padding: 0 8vmax;
+    height: 7vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav a{
+    text-decoration: none;
+}
+
+
+
+.main-nav-upper p {
+    margin-bottom: 0vmax;
+}
+
+.main-upper-child{
+    display: flex;
+    color: white;
+}
+
+.main-upper-child p{
+    margin: 0 10px;
+}
+
+.main-upper-child li{
+    list-style: none;
+}
+
+.main-upper-child li a{
+   text-decoration: none;
+   color: white;
+}
+
+.main-nav-centre{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(126, 174, 126);
+}
+
+.main-nav-centre-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.main-nav-centre-nav ul{
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-centre-nav ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 1.5vmax;
+}
+
+
+.main-nav-centre-nav  a{
+    font: 400 1rem "roboto";
+    color: #575757;
+}
+
+.analog a i{
+  text-align: center;
+}
+
+
+.analog {
+    z-index: 100;
+    margin-top: 1.5vmax;
+    margin-left: 1.5vmax;
+    height: 7vh;
+ 
+  }
+  
+  .nav-one {
+    right: -650%;
+    top: 110%;
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+    height: 45vh;
+    width: 80vw;
+    margin: auto;
+    padding: 1vmax;
+    background-color: #fff;
+  }
+  
+  .nav-box {
+    margin-right: 1vmax;
+    width: 24vw;
+    height: 40vh;
+    background-color: red;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    padding: 0 1vmax;
+    justify-content: start;
+  }
+
+  .analog p{
+    margin-bottom: 1.3vmax;
+    font: 400 1rem "roboto";
+  }
+
+  .nav-box p{
+    margin-bottom: 1.3vmax;
+    font: 400 1rem "roboto";
+  }
+  
+  .navbar h1 {
+    font: 500 1.5rem "gilroy";
+  }
+  
+  .navbar p {
+    font: 300 0.8rem "roboto";
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+  }
+  
+  .navbar button {
+    border-radius: 0.5px solid rgb(20, 20, 20);
+    padding: 0.7vmax;
+    outline: none;
+    border-radius: 25px;
+  }
+  
+  .navbar1 {
+    padding: 0.5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .navbar1 button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #f7d275;
+    border-radius: 25px;
+  }
+  
+  .navbar2 {
+    width: 25;
+    background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/pen-tray-walnut-ls-40.jpg?v=1632240403&width=1000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar2 button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #2c2c2c;
+    border-radius: 25px;
+    color: #fff;
+  }
+  
+
+
+/* -------------------------------------------nav1.1-------------------------------- */
+
+.analogy {
+    margin-top: 1.5vmax;
+    margin-left: 1.5vmax;
+    margin-right: 1vmax;
+    height: 7vh;
+  }
+  
+  .nav-two {
+    right: -1350%;
+    top: 100%;
+    display: flex;
+    position: absolute;
+    margin-left: 10vw;
+    box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+    height: 55vh;
+    width: 80vw;
+    z-index: 100 !important;
+    margin: auto;
+    padding: 1vmax;
+    background-color: #fff;
+  }
+  .navbar3 {
+    padding-left: 2vmax;
+    /* background-color: green; */
+    margin-right: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0 2vmax;
+    justify-content: center;
+  }
+  
+  .navbar3 li {
+    margin-bottom: 0.8vmax;
+    font: 400 1.1rem "roboto";
+    list-style: none;
+  }
+  
+  .navbar4 {
+    padding: 0.5vmax;
+    background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/essential-model-86_1200x_6966ab58-83a2-43a5-93d7-0032137e54e0.jpg?v=1646603471&width=1000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar4 button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #2c2c2c;
+    border-radius: 25px;
+    color: #fff;
+  }
+  
+  .navbar5 {
+    padding: 0.5vmax;
+    background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/black-8_1200x_bd1970a8-eb9b-4a97-997f-9d36c63d5324.jpg?v=1646603496&width=1000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar5 button {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #2c2c2c;
+    border-radius: 25px;
+    color: #fff;
+  }
+  
+
+  /* * ------------------------------Nav 1.2--------------------------------------------- */ */
+
+.analogyy {
+  margin-top: 2vmax;
+  height: 10vh;
+  width: 3vmax;
+ 
+}
+
+.nav-three {
+  right: -400%;
+  top: 120%;
+  display: flex;
+  position: absolute;
+  margin-left: 10vw;
+  box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+  height: 55vh;
+  width: 80vw;
+  margin-top: 3vh;
+  /* margin: auto; */
+  padding: 1vmax;
+  background-color: #fff;
+}
+
+.navbar6 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/logo-mp-natural-xl-2_1480x1836_crop_center_1683b5a5-91ed-4832-a267-99f0d5252a84.jpg?v=1647275771&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar6 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.navbar7 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/hasami-ls-40_1480x1836_crop_center_f33093a0-562b-4de6-89fe-17b8f6c62298.jpg?v=1647275709&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar7 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.main-nav-centre-right i{
+    /* font : 500 1.3rem "roboto"; */
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+.main-nav-centre-right{
+   display: flex;
+   align-items: center;  
+}
+
+.main-nav-centre-right .header{
+    margin-left: 1vmax;
+}
